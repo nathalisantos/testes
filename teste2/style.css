@@ -85,17 +85,36 @@ main {
     font-size: 14px;
 }
 
-#div2 > img {
-    background-color: white;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+#personagens {
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#div2 > img:hover {
+#personagens img {
+    background-color: white;
+    width: 65px;
+    height: 65px;
+    margin: 6px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 53%);
+}
+
+#personagens img:hover {
+    border: 3px solid #2ECD11;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px  rgb(0 0 0 / 53%);
+    transform: translate(2px, 2px);
+    transition: transform 0.1s;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 40vw;
+    height: 400px;
     border: 6px solid transparent;
     border-image: url('imagens/menu_border.png') 15 stretch;
-    box-sizing: border-box;
 }
 
 footer {
