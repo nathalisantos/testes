@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abigail</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
         * {
             margin: 0;
             padding: 0%;
@@ -15,10 +17,7 @@
             background-image: url('imagens/stardewbackground.png');
             background-repeat: no-repeat;
             background-position: bottom left;
-        }
-
-        img {
-            
+            background-attachment: fixed;
         }
 
         #pers {
@@ -31,9 +30,57 @@
             background-repeat: no-repeat;
             background-size: 30%;
         }
+
+        #pers-text {
+            width: 300px;
+            height: 300px;
+            background-color: rgba(255, 255, 255, 0.479);
+
+            position: relative;
+            top: 20px;
+            left: 20px;
+
+            box-shadow: 0px 0px 5px 0px #0000007a;
+        } 
+
+        #pers-text h1 {
+            font-family: 'Aboreto', cursive;
+            text-align: center;
+            background-image: linear-gradient(to right, transparent, #28075eab, transparent);
+            padding: 5px 0px;
+            text-shadow: 1px 1px 2px #0000007a;
+        }
+
+        #pers-text p {
+            padding: 0px 10px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        abbr {
+            text-decoration: underline;
+        }
+
+        strong {
+            color: #28075e;
+        }
     </style>
 </head>
 <body>
-    <div id="pers"><p>aaaaaaa</p></div>
+        <div id="pers">
+        
+            <div id="pers-text">
+                <br>
+                <h1>Abigail</h1>
+                <br>
+                <p>
+                <strong>Aniversário:</strong> 13 de Outubro.
+                <br><strong>Endereço:</strong> Armazén do Pierre.
+                <br><strong>Família:</strong> <abbr title="Pai">Pierre</abbr> e <abbr title="Mãe">Caroline</abbr>.
+                <br><strong>Amigos:</strong> Sebastian e Sam.
+                <br><strong>Presentes amados:</strong> Ametista, mexido de amoras, bolo de chocolate, baiacu, abóbora e enguia picante.
+            </p>
+            </div>
+        </div>
 </body>
 </html>
