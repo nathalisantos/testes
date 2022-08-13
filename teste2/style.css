@@ -101,7 +101,7 @@ main {
 }
 
 #personagens img:hover {
-    border: 3px solid #2ECD11;
+    border: 3px solid #DC7B05;
     box-sizing: border-box;
     box-shadow: 5px 5px 10px  rgb(0 0 0 / 53%);
     transform: translate(2px, 2px);

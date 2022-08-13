@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abigail</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0%;
+        }
+
+        body {
+            background-image: url('../imagens/stardewbackground.png');
+            background-repeat: no-repeat;
+            background-position: bottom left;
+            background-attachment: fixed;
+        }
+
+        #pers {
+            display: block;
+            width: 546px;
+            height: 400px;
+            background-image: url('../imagens/personagens/Emily.png');
+            background-position-x: right;
+            background-position-y: bottom;
+            background-repeat: no-repeat;
+            background-size: 30%;
+        }
+
+        #pers-text {
+            width: 300px;
+            height: 300px;
+            background-color: rgba(255, 255, 255, 0.479);
+
+            position: relative;
+            top: 20px;
+            left: 20px;
+
+            box-shadow: 0px 0px 5px 0px #0000007a;
+        } 
+
+        #pers-text h1 {
+            font-family: 'Aboreto', cursive;
+            text-align: center;
+            background-image: linear-gradient(to right, transparent, rgba(0, 43, 185, 0.671), transparent);
+            padding: 5px 0px;
+            text-shadow: 1px 1px 2px #0000007a;
+        }
+
+        #pers-text p {
+            padding: 0px 10px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        abbr {
+            text-decoration: underline;
+        }
+
+        strong {
+            color: #002BB9;
+        }
+    </style>
+</head>
+<body>
+        <div id="pers">
+        
+            <div id="pers-text">
+                <br>
+                <h1>Emily</h1>
+                <br>
+                <p>
+                <strong>Aniversário:</strong> Primavera 27.
+                <br><strong>Endereço:</strong> Rua do Salgueiro, nº 2.
+                <br><strong>Família:</strong> <abbr title="Irmã">Hailey</abbr>.
+                <br><strong>Amigos:</strong> Sandy.
+                <br><strong>Presentes amados:</strong> Água-marinha, ametista, esmeralda, hambúrguer de sobrevivência, jade, lã, rubi, tecido e topázio.
+            </p>
+            </div>
+        </div>
+</body>
+</html>
