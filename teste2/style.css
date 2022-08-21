@@ -59,7 +59,7 @@ main {
 }
 
 #div1-2 {
-    height: 220px;
+    height: 32vh;
     width: 50vw;
     background-color: rgba(255, 255, 255, 0.479);
     margin-right: 800px;
@@ -71,11 +71,15 @@ main {
     border-radius: 20px;
     border: 6px solid transparent;
     border-image: url('imagens/menu_border.png') 15 stretch;
+
+    min-height: 32vh;
 }
 
 #div1-2 h2 {
     text-align: center;
     padding-top: 20px;
+
+    
 }
 
 #div1-2 p {
