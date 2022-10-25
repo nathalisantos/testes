@@ -101,9 +101,10 @@ main {
 }
 
 #hmoradores {
+    color: #DC7B05;
     font-family: "Aboreto", cursiva;
     text-align: center;
-    
+    text-shadow: 1px 1px 2px #0000007a;
 }
 
 #personagens {
